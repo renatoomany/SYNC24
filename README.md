@@ -1,6 +1,7 @@
 # SYNC24
 
-![sync24](/img/sync24.JPG)
+![sync24](/img/sync24_1.JPG)
+![sync24](/img/sync24_2.JPG)
 
 ## 仕様
 
