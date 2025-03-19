@@ -43,10 +43,9 @@
 
 ## バッテリー仕様
 
-SYNC24には **DATA POWER DTP401525** を使用しています。  
+SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。  
 
-### 販売サイト
-
+販売サイト
 - [Marutsu](https://www.marutsu.co.jp/pc/i/2228265/])
 - [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5VAC)  
 
