@@ -15,23 +15,18 @@
 - **ファームウェア**: ZMK firmware
 - **設定ツール**: ZMK Studio
 
-## ファームウェア  
-
-ビルド済みの ZMK firmware（`.uf2`ファイル） を **[firmware](./firmware)** フォルダに配置しています。  
-購入時に書き込んであるものと同じです。
-
-また、カスタマイズを行いたい場合は、**[zmk-config-sync24](https://github.com/renatoomany/zmk-config-sync24)** に設定ファイルを用意しています。  
-必要に応じてフォークしてお使いください。  
-
-⚠ **ご自身での変更・ビルド方法についての詳細なサポートは提供できませんので、ご了承ください。**  
-  - 必要に応じて [ZMK公式ドキュメント](https://zmk.dev/docs) をご参照ください。
-
 ## 左右の見分け方  
 
 リセットボタンが **黒い方が左**、**白い方が右** です。  
 左右でハードウェア的な違いはありません。  
 
 ![leftright](/img/leftright.png)
+
+## ペアリング
+
+- 電源を入れると **すぐにペアリング待ちの状態** になります。  
+- 初回ペアリング時、 **BT_SEL 0 に登録** されます。  
+- **BT_SEL 0 〜 BT_SEL 4 の計5台** まで登録可能です。  
 
 ## 充電について
 
@@ -54,16 +49,10 @@ SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。
 
 ## デフォルトのキーマップ
 
-![BaseLayer](/img/base_layer.png)
-![NumLayer](/img/num_layer.png)
-![FunctionLayer](/img/function_layer.png)
-![UtilLayer](/img/util_layer.png)
-
-## ペアリング
-
-- 電源を入れると **すぐにペアリング待ちの状態** になります。  
-- 初回ペアリング時、 **BT_SEL 0 に登録** されます。  
-- **BT_SEL 0 〜 BT_SEL 4 の計5台** まで登録可能です。  
+![BaseLayer](/img/base_layer_2.png)
+![NumLayer](/img/num_layer_2.png)
+![FunctionLayer](/img/function_layer_2.png)
+![UtilLayer](/img/util_layer_2.png)
 
 ## レイヤー移動
 
@@ -76,7 +65,18 @@ SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。
   ![Combo](/img/2_return.png)
 
 - **Combo**  
-  ![Combo](/img/combo.png)
+  ![Combo](/img/combo_2.png)
+
+## ファームウェア  
+
+ビルド済みの ZMK firmware（`.uf2`ファイル） を **[firmware](./firmware)** フォルダに配置しています。  
+購入時に書き込んであるものと同じです。
+
+また、カスタマイズを行いたい場合は、**[zmk-config-sync24](https://github.com/renatoomany/zmk-config-sync24)** に設定ファイルを用意しています。  
+必要に応じてフォークしてお使いください。  
+
+⚠ **ご自身での変更・ビルド方法についての詳細なサポートは提供できませんので、ご了承ください。**  
+必要に応じて [ZMK公式ドキュメント](https://zmk.dev/docs) をご参照ください。
 
 ## 連絡先
 
