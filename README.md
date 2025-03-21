@@ -1,7 +1,6 @@
 # SYNC24
 
 ![sync24](/img/sync24_1.JPG)
-![sync24](/img/sync24_2.JPG)
 
 ## 仕様
 
@@ -35,18 +34,6 @@
 
 ![chargelamp](/img/chargelamp.png)
 
-## バッテリー仕様
-
-SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。  
-
-販売サイト
-- [マルツ](https://www.marutsu.co.jp/pc/i/2228265)
-- [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5VAC)  
-
-> [!WARNING]
-> 強い衝撃を与えたり、極端な高温・低温での使用は避けてください  
-> 異常が生じた場合は、直ちに使用を中止してください  
-
 ## デフォルトのキーマップ
 
 ![BaseLayer](/img/base_layer_2.png)
@@ -58,18 +45,18 @@ SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。
 
 - **tap** → Space  
   **hold** → Numレイヤーに移動  
-  ![1space](/img/1_space.png)
+  ![1space](/img/1_space_2.png)
 
 - **tap** → Return  
   **hold** → Functionレイヤーに移動  
-  ![Combo](/img/2_return.png)
+  ![Combo](/img/2_return_2.png)
 
 - **Combo**  
   ![Combo](/img/combo_2.png)
 
 ## ファームウェア  
 
-ビルド済みの ZMK firmware（`.uf2`ファイル） を **[firmware](./firmware)** フォルダに配置しています。  
+ビルド済みの ZMK firmware（`.uf2`） を **[firmware](./firmware)** フォルダに配置しています。  
 購入時に書き込んであるものと同じです。
 
 また、カスタマイズを行いたい場合は、**[zmk-config-sync24](https://github.com/renatoomany/zmk-config-sync24)** に設定ファイルを用意しています。  
@@ -77,6 +64,18 @@ SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。
 
 ⚠ **ご自身での変更・ビルド方法についての詳細なサポートは提供できませんので、ご了承ください。**  
 必要に応じて [ZMK公式ドキュメント](https://zmk.dev/docs) をご参照ください。
+
+## バッテリー仕様
+
+SYNC24には **DATA POWER DTP401525** (3.7v / 110mAh)を使用しています。  
+
+販売サイト
+- [マルツ](https://www.marutsu.co.jp/pc/i/2228265)
+- [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5VAC)  
+
+> [!WARNING]
+> 強い衝撃を与えたり、極端な高温・低温での使用は避けてください  
+> 異常が生じた場合は、直ちに使用を中止してください  
 
 ## 連絡先
 
