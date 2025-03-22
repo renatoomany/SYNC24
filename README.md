@@ -1,4 +1,4 @@
-# SYNC24
+# SYNC24™
 
 ![sync24](/img/sync24_1.JPG)
 
