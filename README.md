@@ -68,7 +68,7 @@ ZMK StudioにはWeb版とApp版があります。アプリだとbluetooth経由�
 
 3. `Unlock To Continue`を促された場合はキーマップを参考に解除してください。
 ![unlock](img/howtoenter2.png)
-![unlock_keypress](img/studio_unlock.gif)
+![unlock_keypress](img/studio_unlock_looped.gif)
 
 4. 解除に成功すると自動的にキーマップ編集画面へと移動します。
 ![successenter](img/howtoenter3.png)
