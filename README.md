@@ -54,6 +54,25 @@
 - **Combo**  
   ![Combo](/img/combo_2.png)
 
+## ZMK Studio でのキーマップ変更
+
+ZMK StudioにはWeb版とApp版があります。アプリだとbluetooth経由でキーマップの書き換えができるのでお勧めです。
+
+- [web](https://zmk.studio) 
+- [app](https://zmk.studio/download)
+
+1. キーボードをbluetooth,もしくは有線で接続します。
+
+2. ZMK Studioを起動し`SYNC24`を選択します。
+![select](img/howtoenter1.png)
+
+3. `Unlock To Continue`を促された場合はキーマップを参考に解除してください。
+![unlock](img/howtoenter2.png)
+![unlock_keypress](img/studio_unlock.gif)
+
+4. 解除に成功すると自動的にキーマップ編集画面へと移動します。
+![successenter](img/howtoenter3.png)
+
 ## ファームウェア  
 
 ビルド済みの ZMK firmware（`.uf2`） を **[firmware](./firmware)** フォルダに配置しています。  
@@ -64,6 +83,25 @@
 
 ⚠ **ご自身での変更・ビルド方法についての詳細なサポートは提供できませんので、ご了承ください。**  
 必要に応じて [ZMK公式ドキュメント](https://zmk.dev/docs) をご参照ください。
+
+---
+
+### ファームウェア書き込み手順
+
+1. **SYNC24 を UF2ブートローダー モードにする**
+
+   - キーボードの上面にある **リセットボタンを2回連続で押す**  
+     → `XIAO-SENSE` という名前の USB ドライブが表示されます
+
+2. **ファームウェア（`.uf2`）をドラッグ＆ドロップ**
+
+   - ダウンロードした `.uf2` ファイルを `XIAO-SENSE` ドライブにドラッグしてください
+   - 転送が終わると、自動的に再起動し、ドライブが消えます
+
+3. **完了**
+
+---
+
 
 ## バッテリー仕様
 
